@@ -1,0 +1,230 @@
+/************************************************************/
+/* 
+	FLAMEkwirk v1.0 - CSS Grid Framework
+	Copyright (c) 2010 Jason Witt
+	Duel licensed under the GPL license and Creative Commons Attribution-ShareAlike 3.0 Unported License:
+	http://www.gnu.org/licenses/gpl.html
+	http://creativecommons.org/licenses/by-sa/3.0/legalcode
+	
+	This program is free software: you can redistribute it and/or modify 
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+	
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+	
+	You should have received a copy of the GNU General Public License
+	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+	
+	This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, 
+	visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, 
+	San Francisco, California, 94105, USA.
+	
+	Inner Mind Labs Original
+	http://www.innermindlabs.com
+	
+	This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, 
+	visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, S
+	an Francisco, California, 94105, USA. 
+*/
+/************************************************************/
+/************************************************************/
+/* 
+	Colors and Shadows
+*/
+/************************************************************/
+.bg-color-1 { background-color:#FFF; }
+.bg-color-2 { background-color:#CCC; }
+.bg-color-3 { background-color:#999; }
+.bg-color-4 { background-color:#666; }
+.bg-color-5 { background-color:#333; }
+.bg-color-6 { background-color:#000; }
+.no-bg { background:none }
+
+.font-color-1 { color:#FFF; }
+.font-color-2 { color:#CCC; }
+.font-color-3 { color:#999; }
+.font-color-4 { color:#666; }
+.font-color-5 { color:#333; }
+.font-color-6 { color:#000; }
+
+.text-shadow-1 { text-shadow: 2px 2px 2px #FFF; }
+.text-shadow-2 { text-shadow: 2px 2px 2px #CCC; }
+.text-shadow-3 { text-shadow: 2px 2px 2px #999; }
+.text-shadow-4 { text-shadow: 2px 2px 2px #666; }
+.text-shadow-5 { text-shadow: 2px 2px 2px #333; }
+.text-shadow-6 { text-shadow: 2px 2px 2px #000; }
+/************************************************************/
+/* 
+	Alignment 
+*/
+/************************************************************/
+.align-right { text-align:right; }
+.align-left { text-align:left; }
+.align-center { text-align:center; }
+.float-left { float:left }
+.float-right { float:right; }
+.no-float { float:none; }
+/************************************************************/
+/* 
+	Padding
+*/
+/************************************************************/
+.padding { padding:5px; }
+.no-padding { padding:0; }
+.top-padding { padding-top:5px; }
+.bottom-padding { padding-bottom:5px; }
+.top-bottom-padding { padding:5px 0 5px 0; }
+.right-padding { padding-right:5px; }
+.left-padding { padding-left:5px; }
+.right-left-padding { padding:0 5px 0 5px; }
+.top-right-left-padding { padding:5px 5px 0 5px; }
+.top-right-padding { padding:5px 5px 0 0; }
+.top-left-padding { padding:5px 0 0 5px; }
+.bottom-right-left-padding { padding:5px 5px 0 5px; }
+.bottom-right-padding { padding:5px 5px 0 0; }
+.bottom-left-padding { padding:5px 0 0 5px; }
+.top-bottom-right-padding { padding:5px 5px 5px 0; }
+.top-bottom-left-padding { padding:5px 0 5px 5px; }
+/************************************************************/
+/* 
+	Margins
+*/
+/************************************************************/
+.no-margin { margin:0; }
+.margin { margin:5px; }
+.top-margin { margin-top:5px; }
+.bottom-margin { margin-bottom:5px; }
+.top-bottom-margin { margin:5px 0 5px 0; }
+.right-margin { margin-right:5px; }
+.left-margin { margin-left:5px; }
+.right-left-margin { margin:0 5px 0 5px; }
+.top-right-left-margin { margin:5px 5px 0 5px; }
+.top-right-margin { margin:5px 5px 0 0; }
+.top-left-margin { margin:5px 0 0 5px; }
+.bottom-right-left-margin { margin:5px 5px 0 5px; }
+.bottom-right-margin { margin:5px 5px 0 0; }
+.bottom-left-margin { margin:5px 0 0 5px; }
+.top-bottom-right-margin { margin:5px 5px 5px 0; }
+.top-bottom-left-margin { margin:5px 0 5px 5px; }
+/************************************************************/
+/* 
+	Borders
+*/
+/************************************************************/
+.no-border { 
+	border:none;
+	}
+.border { 
+	border:1px solid #000;
+}
+.top-border { 
+	border-top:1px solid #000;
+}
+.bottom-border { 
+	border-bottom:1px solid #000;
+}
+.top-bottom-border { 
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
+}
+.right-border { 
+	border-right:1px solid #000;
+}
+.left-border { 
+	border-left:1px solid #000;
+}
+.right-left-border { 
+	border-right:1px solid #000;
+	border-left:1px solid #000;
+}
+.top-right-left-border { 
+	border-top:1px solid #000;
+	border-right:1px solid #000;
+	border-left:1px solid #000;
+}
+.top-right-border { 
+	border-top:1px solid #000;
+	border-right:1px solid #000;
+}
+.top-left-border { 
+	border-top:1px solid #000;
+	border-left:1px solid #000;
+}
+.bottom-right-left-border { 
+	border-bottom:1px solid #000;
+	border-right:1px solid #000;
+	border-left:1px solid #000;
+}
+.bottom-right-border { 
+	border-bottom:1px solid #000;
+	border-right:1px solid #000; 
+}
+.bottom-left-border { 
+	border-bottom:1px solid #000;
+	border-left:1px solid #000;
+	
+}
+.top-bottom-right-border { 
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
+	border-right:1px solid #000; 
+}
+.top-bottom-left-border { 
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
+	border-left:1px solid #000;
+}
+/************************************************************/
+/* 
+	Z Index
+*/
+/************************************************************/
+.z-index-1{ z-index:1; }
+.z-index-10{ z-index:10; }
+.z-index-20{ z-index:20; }
+.z-index-30{ z-index:30; }
+.z-index-40{ z-index:40; }
+.z-index-50{ z-index:50; }
+.z-index-60{ z-index:60; }
+.z-index-70{ z-index:70; }
+.z-index-80{ z-index:80; }
+.z-index-90{ z-index:90; }
+.z-index-100{ z-index:100; }
+/************************************************************/
+/* 
+	Clear Floats and Clearfix 
+*/
+/************************************************************/
+.clearfix:before, .clearfix:after {
+	content: "\0020"; 
+	display: block; 
+	height: 0; 
+	overflow: hidden;
+}
+.clearfix:after { clear: both; }
+.clearfix {zoom: 1;}
+/************************************************************/
+/* 
+	Miscellaneous
+*/
+/************************************************************/
+.show { display:block; }
+.hide {display:none; }
+.ir { 
+	display: block; 
+	text-indent: -999em; 
+	overflow: hidden; 
+	background-repeat: no-repeat; 
+	text-align: left; 
+	direction: ltr; 
+}
+.demo-style{
+	height:20px;
+	margin-bottom:10px;
+	background-color:#999;
+	text-align:center;
+}

@@ -1,0 +1,439 @@
+/************************************************************/
+/* Font Families */
+/*
+	Common Font Families
+	
+	Arial, "Helvetica Neue", Helvetica, sans-serif  #
+	"Courier New", Courier, monospace  #
+	Georgia, Palatino," Palatino Linotype", Times, "Times New Roman", serif  #
+	Impact, Haettenschweiler, “Arial Narrow Bold”, sans-serif
+	"Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif
+	Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif
+	Tahoma, Geneva, Verdana  #
+	Times, "Times New Roman", Georgia, serif  #
+	"Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande"," Lucida Sans", Arial, sans-serif
+	Verdana, Geneva, Tahoma, sans-serif
+*/
+/************************************************************/
+body{
+	font-size:100%;
+}
+/************************************************************/
+/* 
+	Paragraphs 
+*/
+/************************************************************/
+p{
+	margin-bottom:1.5em;
+	font: normal 1em/1.5em Arial, "Helvetica Neue", Helvetica, sans-serif; 
+	/*font: normal 1em/1.5em "Courier New", Courier, monospace;*/
+	/*font: normal 1em/1.5em Georgia, Palatino," Palatino Linotype", Times, "Times New Roman", serif; */
+	/*font: normal 1em/1.5em Impact, Haettenschweiler, “Arial Narrow Bold”, sans-serif;*/
+	/*font: normal 1em/1.5em "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;*/
+	/*font: normal 1em/1.5em Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif;*/
+	/*font: normal 1em/1.5em Tahoma, Geneva, Verdana; */
+	/*font: normal 1em/1.5em Times, "Times New Roman", Georgia, serif;*/
+	/*font: normal 1em/1.5em "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande"," Lucida Sans", Arial, sans-serif;*/
+	/*font: normal 1em/1.5em Verdana, Geneva, Tahoma, sans-serif;*/
+}
+/************************************************************/
+/* 
+	Headings 
+*/
+/************************************************************/
+/************************************************************/
+/* 
+	Basic
+*/
+/************************************************************/
+h1, h2, h3, h4, h5, h5, h6{
+}
+
+h1{
+	font: normal 2em Arial, "Helvetica Neue", Helvetica, sans-serif; 
+	/*font: normal 2em "Courier New", Courier, monospace;*/
+	/*font: normal 2em Georgia, Palatino," Palatino Linotype", Times, "Times New Roman", serif; */
+	/*font: normal 2em Impact, Haettenschweiler, “Arial Narrow Bold”, sans-serif;*/
+	/*font: normal 2em "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;*/
+	/*font: normal 2em Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif;*/
+	/*font: normal 2em Tahoma, Geneva, Verdana; */
+	/*font: normal 2em Times, "Times New Roman", Georgia, serif;*/
+	/*font: normal 2em "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande"," Lucida Sans", Arial, sans-serif;*/
+	/*font: normal 2em Verdana, Geneva, Tahoma, sans-serif;*/
+}
+h2{
+	font: normal 1.75em Arial, "Helvetica Neue", Helvetica, sans-serif; margin-top:0.107em;
+	/*font: normal 1.75em "Courier New", Courier, monospace;*/
+	/*font: normal 1.75em Georgia, Palatino," Palatino Linotype", Times, "Times New Roman", serif; */
+	/*font: normal 1.75em Impact, Haettenschweiler, “Arial Narrow Bold”, sans-serif;*/
+	/*font: normal 1.75em "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;*/
+	/*font: normal 1.75em Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif;*/
+	/*font: normal 1.75em Tahoma, Geneva, Verdana; */
+	/*font: normal 1.75em Times, "Times New Roman", Georgia, serif;*/
+	/*font: normal 1.75em "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande"," Lucida Sans", Arial, sans-serif;*/
+	/*font: normal 1.75em Verdana, Geneva, Tahoma, sans-serif;*/
+}
+h3{
+	font: normal 1.5em Arial, "Helvetica Neue", Helvetica, sans-serif; margin-top:0.35em;
+	/*font: normal 1.5em "Courier New", Courier, monospace;*/
+	/*font: normal 1.5em Georgia, Palatino," Palatino Linotype", Times, "Times New Roman", serif; */
+	/*font: normal 1.5em Impact, Haettenschweiler, “Arial Narrow Bold”, sans-serif;*/
+	/*font: normal 1.5em "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;*/
+	/*font: normal 1.5emm Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif;*/
+	/*font: normal 1.5em Tahoma, Geneva, Verdana; */
+	/*font: normal 1.5em Times, "Times New Roman", Georgia, serif;*/
+	/*font: normal 1.5em "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande"," Lucida Sans", Arial, sans-serif;*/
+	/*font: normal 1.5em Verdana, Geneva, Tahoma, sans-serif;*/
+}
+h4{
+	font: normal 1.33em Arial, "Helvetica Neue", Helvetica, sans-serif; margin-top:0.47em;
+	/*font: normal 1.33em "Courier New", Courier, monospace;*/
+	/*font: normal 1.33em Georgia, Palatino," Palatino Linotype", Times, "Times New Roman", serif; */
+	/*font: normal 1.33em Impact, Haettenschweiler, “Arial Narrow Bold”, sans-serif;*/
+	/*font: normal 1.33em "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;*/
+	/*font: normal 1.33em Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif;*/
+	/*font: normal 1.33em Tahoma, Geneva, Verdana; */
+	/*font: normal 1.33em Times, "Times New Roman", Georgia, serif;*/
+	/*font: normal 1.33em "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande"," Lucida Sans", Arial, sans-serif;*/
+	/*font: normal 1.33em Verdana, Geneva, Tahoma, sans-serif;*/
+}
+h5{
+	font: normal 1.167em Arial, "Helvetica Neue", Helvetica, sans-serif; margin-top:0.6em;
+	/*font: normal 1.167em "Courier New", Courier, monospace;*/
+	/*font: normal 1.167em Georgia, Palatino," Palatino Linotype", Times, "Times New Roman", serif; */
+	/*font: normal 1.167em Impact, Haettenschweiler, “Arial Narrow Bold”, sans-serif;*/
+	/*font: normal 1.167em "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;*/
+	/*font: normal 1.167em Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif;*/
+	/*font: normal 1.167em Tahoma, Geneva, Verdana; */
+	/*font: normal 1.167em Times, "Times New Roman", Georgia, serif;*/
+	/*font: normal 1.167em "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande"," Lucida Sans", Arial, sans-serif;*/
+	/*font: normal 1.167em Verdana, Geneva, Tahoma, sans-serif;*/
+}
+h6{
+	font: normal 1em Arial, "Helvetica Neue", Helvetica, sans-serif; margin-top:0.9em;
+	/*font: normal 1em "Courier New", Courier, monospace;*/
+	/*font: normal 1em Georgia, Palatino," Palatino Linotype", Times, "Times New Roman", serif; */
+	/*font: normal 1em Impact, Haettenschweiler, “Arial Narrow Bold”, sans-serif;*/
+	/*font: normal 1em "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", sans-serif;*/
+	/*font: normal 1em Palatino, "Palatino Linotype", Georgia, Times, "Times New Roman", serif;*/
+	/*font: normal 1em Tahoma, Geneva, Verdana; */
+	/*font: normal 1em Times, "Times New Roman", Georgia, serif;*/
+	/*font: normal 1em "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande"," Lucida Sans", Arial, sans-serif;*/
+	/*font: normal 1em Verdana, Geneva, Tahoma, sans-serif;*/
+}
+/************************************************************/
+/* 
+	Font Formating 
+*/
+/************************************************************/
+.bold{
+	font-weight: bold;
+}
+.italic{
+	font-style: italic;
+}
+.highlight{
+	background: #ff0;
+}
+.delete{
+	text-decoration: line-through;
+}
+.underline{
+	text-decoration: underline;
+}
+.overline{
+	text-decoration: overline;
+}
+.small{
+	font-size:80%;
+	font-weight:lighter;
+}
+.large{
+	font-size:140%;
+	font-weight:bold;
+}
+/************************************************************/
+/* 
+	Links 
+*/
+/************************************************************/
+a{
+	color: #00F;
+	text-decoration: underline;
+}
+a:hover{
+	color: #006;
+	cursor: pointer;
+	outline: none;
+	text-decoration: underline;
+}
+a:active, a:focus{
+	color: #F00;
+	outline: none;
+	text-decoration: none;
+}
+a:visited{
+	color: #800080;
+	text-decoration: none;
+}
+
+/************************************************************/
+/* 
+	Paragraph Image Wraps 
+*/
+/************************************************************/
+p .img-wrap-left{
+	float: left !important;
+	margin: .45em .4em -0.312em 0;
+	padding: 0;
+}
+p .img-wrap-right{
+	float: right !important;
+	margin: .45em 0 -0.312em .4em;
+	padding: 0;
+}
+p .drop-caps-left{
+	float: left !important;
+	margin: 0 .1em -0.312em 0;
+	padding: 0;
+	font-size:300%;
+	line-height: 1em;
+}
+p .drop-caps-right{
+	float: right !important;
+	margin: 0 0 -0.312em .1em;
+	padding: 0;
+	font-size:300%;
+	line-height: 1em;
+}
+p .raised-caps-left{
+	float: left !important;
+	margin: -0.2em .1em .1em 0;
+	font-size:300%;
+}
+p .raised-caps-right{
+	float: right !important;
+	margin: -0.2em 0 .1em .1em;
+	font-size:300%;
+}
+p .adjacent-caps-left{
+	float: left !important;
+	margin: 0 .1em -0.312em 0;
+	padding: 0;
+	font-size:300%;
+}
+p .adjacent-caps-right{
+	float: right !important;
+	margin: 0 0 -0.312em .1em;
+	padding: 0;
+	font-size:300%;
+}
+/************************************************************/
+/*
+	Lists
+*/
+/************************************************************/
+ul, ol{
+	margin: 0 0 1.5em 0;
+	padding-left: 1.5em;
+}
+ul li{
+	list-style-type: disc;
+}
+ul ol li{
+	font-size: 80%;
+	list-style-type: decimal;
+}
+ul ul li{
+	font-size: 80%;
+}
+ol li{
+	list-style-type: decimal;
+}
+ol ol li{
+	font-size: 80%;
+}
+ol ul li{
+	font-size: 80%;
+	list-style-type: disc;
+}
+dl{
+	margin: 0 0 0 0;
+}
+dl dt{
+	font-weight: bold;
+}
+dd{
+	margin-left: 1.5em;
+}
+/************************************************************/
+/*
+	Alert Boxes
+*/
+/************************************************************/
+.error, .notice, .info{
+	border: 2px solid #CCC;
+	line-height:1.5em;
+}
+.error h3, .notice h3, .info h3{
+	margin:0.2em 0 0 0;
+}
+.error p, .notice p, .info p{
+	font-size:1em;
+	padding:0 10px 10px 10px;
+}
+.ie6 .error, .ie6 .notice, .ie6 .info{
+	padding-top: 0.625em;
+}
+.ie7 .error, .ie7 .notice, .ie7 .info{
+	padding-top: 0.625em;
+}
+.error{
+	background: #FFBFBF;
+	border-color: #FF2424;
+	color: #000;
+}
+.notice{
+	background: #FFF6BF;
+	border-color: #FFD324;
+	color: #000;
+}
+.info{
+	background: #6FF;
+	border-color: #06F;
+	color: #000;
+}
+.error:hover, .notice:hover, .info:hover{
+	background: #EEE;
+	border-color: #CCC;
+}
+.error-image, .notice-image, .info-image{
+	background: url(images/error-icon-sprite.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+	float: left;
+	height: 16px;
+	margin: 0.5em 0.625em 0 0.625em;
+	width: 16px;
+}
+.ie6 .error-image, .ie6 .notice-image, .ie6 .info-image{
+	background: url(images/error-icon-sprite.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+	float: left;
+	height: 16px;
+	margin: 0.125em 0.625em 0 0.625em;
+	width: 16px;
+}
+.ie7 .error-image, .ie7 .notice-image, .ie7 .info-image{
+	background: url(images/error-icon-sprite.png);
+	background-position: left center;
+	background-repeat: no-repeat;
+	float: left;
+	height: 16px;
+	margin: 0.125em 0.625em 0 0.625em;
+	width: 16px;
+}
+.error-image{
+	background-position: 0px 0px;
+}
+.notice-image{
+	background-position: -16px 0px;
+}
+.info-image{
+	background-position: -32px 0px;
+}
+/************************************************************/
+/*
+	Tables
+*/
+/************************************************************/
+table {
+	width:100%;	
+	padding:2px 10px 2px 10px;
+}
+table {
+	border-left:2px solid #333;
+	border-right:2px solid #333;
+	border-bottom:2px solid #333;
+}
+th, td {
+	border:1px solid #999;
+	padding:2px 10px 2px 10px;
+}
+thead {
+	border:2px solid #333;
+}
+thead th{
+	text-align:center;
+}
+caption{
+	text-align:center;
+}
+.tr-odd {
+	background-color:#DDD;
+}
+.tr-even {
+	background-color:#0FF;
+}
+.tr-odd:hover,.tr-even:hover {
+	background-color:#0CF;
+}
+tfoot tr td{ 
+	font-style: italic;
+	text-align:center;
+}
+/************************************************************/
+/*
+	You can use this method to achive the alternating cell backgrounds, but Internet Explorer doesn't support it.
+*/
+/************************************************************/
+/*
+tr:nth-child(odd) {
+	background-color:#DDD;
+}
+tr:nth-child(even) {
+	background-color:#0FF;
+}
+tr:nth-child(odd):hover, tr:nth-child(even):hover {
+	background:#0CF;
+}
+tr:nth-child(1), tr:nth-child(1):hover	{
+	background-color:#FFF;
+}
+*/
+/************************************************************/
+/*
+	Miscellaneous 
+*/
+/************************************************************/
+strong{
+	font-weight: 600;
+}
+em, dfn{
+	font-style: italic;
+}
+dfn{
+	font-weight: 600;
+}
+sup, sub{
+	line-height: 0;
+}
+abbr, acronym{
+	border-bottom: 1px dashed #ccc;
+}
+address{
+	font-style: italic;
+}
+del{
+	color: #666;
+}
+pre, code, tt{
+	display: block;
+	font: 1em 'andale mono', 'lucida console', monospace;
+}
+code{
+	background-color: #d5d2d8;
+	display: block;
+	padding: 0.625em;
+} 

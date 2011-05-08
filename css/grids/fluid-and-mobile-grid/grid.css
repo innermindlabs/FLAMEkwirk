@@ -1,0 +1,420 @@
+/************************************************************/
+/* 
+	FLAMEkwirk v1.0 - CSS Grid Framework
+	Copyright (c) 2010 Jason Witt
+	Duel licensed under the GPL license and Creative Commons Attribution-ShareAlike 3.0 Unported License:
+	http://www.gnu.org/licenses/gpl.html
+	http://creativecommons.org/licenses/by-sa/3.0/legalcode
+	
+	This program is free software: you can redistribute it and/or modify 
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation, either version 3 of the License, or
+	(at your option) any later version.
+	
+	This program is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+	
+	You should have received a copy of the GNU General Public License
+	along with this program.  If not, see <http://www.gnu.org/licenses/>.
+	
+	This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, 
+	visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, 
+	San Francisco, California, 94105, USA.
+	
+	Inner Mind Labs Original
+	http://www.innermindlabs.com
+	
+	This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA. 
+*/
+/************************************************************/
+html {
+	overflow-x:hidden;
+}
+/************************************************************/
+/************************************************************/
+/* 
+	Add .view-grid class to your <div> to see the grid
+	e.g: <div class="view-grid"></div>
+*/
+/************************************************************/
+.view-grid {
+	background:url(images/grid.png);
+}
+/************************************************************/
+/* 
+	Add .main-container class to the main wrapper with 1% padding on the left and right.
+	e.g: <div class="main-container"></div>
+*/
+/************************************************************/
+.main-container {
+	width:98%;
+	min-width:770px;
+	padding-right:1%;
+	padding-left:1%;
+}
+/************************************************************/
+/* 
+	Use these classes to set the width of an your columns.
+	e.g: <div class="width-1"></div>
+	e.g: <input type="text" class="width-1">
+	e.g: <textarea type="text" class="width-1">
+*/
+/************************************************************/
+.width-1, .width-2, .width-3, .width-4, .width-5, .width-6, .width-7, .width-8, .width-9, .width-10, .width-11, .width-12, .width-13, .width-14, .width-15, .width-16, .width-17, .width-18, .width-19 , .width-20, .width-21, .width-22, .width-21, .width-22, .width-23, .width-24, .width-25, .width-26, .width-27, .width-28, .width-29, .width-30, .width-31, .width-32, .width-33, .width-34, .width-35, .width-36, .width-37, .width-38, .width-39 , .width-40, .width-41, .width-42, .width-43, .width-44 , .width-45, .width-46, .width-47, .width-48, .width-49, .width-50, .width-51, .width-52, .width-53, .width-54, .width-55, .width-56, .width-57, .width-58, .width-59, .width-60, .width-61, .width-62, .width-63, .width-64, .width-65, .width-66, .width-67, .width-68, .width-69, .width-70, .width-71, .width-72, .width-73, .width-74, .width-75, .width-76, .width-77, .width-78, .width-79, .width-80, .width-81, .width-82, .width-83, .width-84, .width-85, .width-86, .width-87, .width-88, .width-89, .width-90, .width-91, .width-92, .width-93, .width-94, .width-95, .width-96, .width-97, .width-98, .width-99, .width-100{
+	float: left;
+	margin-right:2%;
+}
+input.width-1, textarea.width-1, input.width-2, textarea.width-2, input.width-3, textarea.width-3, input.width-4, textarea.width-4, input.width-5, textarea.width-5, input.width-6, textarea.width-6, input.width-7, textarea.width-7, input.width-8, textarea.width-8, input.width-9, textarea.width-9, input.width-10, textarea.width-10, input.width-11, textarea.width-11, input.width-12, textarea.width-12, input.width-13, textarea.width-13, input.width-14, textarea.width-14, input.width-15, textarea.width-15, input.width-16, textarea.width-16, input.width-17, textarea.width-17, input.width-18, textarea.width-18, input.width-19, textarea.width-19, input.width-20, textarea.width-20, input.width-21, textarea.width-21, input.width-22, textarea.width-22, input.width-23, textarea.width-23, input.width-24, textarea.width-24, input.width-25, textarea.width-25, input.width-26, textarea.width-26, input.width-27, textarea.width-27, input.width-28, textarea.width-28, input.width-29, textarea.width-29, input.width-30, textarea.width-30, input.width-31, textarea.width-31, input.width-32, textarea.width-32, input.width-33, textarea.width-33, input.width-34, textarea.width-34, input.width-35, textarea.width-35, input.width-36, textarea.width-36, input.width-37, textarea.width-37, input.width-38, textarea.width-38, input.width-39, textarea.width-39, input.width-40, textarea.width-40, input.width-41, textarea.width-41, input.width-42, textarea.width-42, input.width-43, textarea.width-43, input.width-44, textarea.width-44, input.width-45, textarea.width-45, input.width-46, textarea.width-46, input.width-47, textarea.width-47, input.width-48, textarea.width-48, input.width-49, textarea.width-49, input.width-50, textarea.width-50, input.width-51, textarea.width-51, input.width-52, textarea.width-52, input.width-53, textarea.width-53, input.width-54, textarea.width-54, input.width-55, textarea.width-55, input.width-56, textarea.width-56, input.width-57, textarea.width-57, input.width-11, textarea.width-11, input.width-12, textarea.width-12, input.width-13, textarea.width-13, input.width-14, textarea.width-58, input.width-58, textarea.width-15, input.width-59, textarea.width-59, input.width-60, textarea.width-60, input.width-61, textarea.width-61, input.width-62, textarea.width-62, input.width-63, textarea.width-63, input.width-64, textarea.width-64, input.width-65, textarea.width-65, input.width-66, textarea.width-66, input.width-67, textarea.width-67, input.width-68, textarea.width-68, input.width-69, textarea.width-69, input.width-70, textarea.width-70, input.width-71, textarea.width-71, input.width-72, textarea.width-72, input.width-73, textarea.width-73, input.width-74, textarea.width-74, input.width-75, textarea.width-75, input.width-76, textarea.width-76, input.width-77, textarea.width-77, input.width-78, textarea.width-78, input.width-79, textarea.width-79, input.width-80, textarea.width-80, input.width-81, textarea.width-81, input.width-82, textarea.width-82, input.width-83, textarea.width-83, input.width-84, textarea.width-84, input.width-85, textarea.width-85, input.width-86, textarea.width-86, input.width-87, textarea.width-87, input.width-88, textarea.width-88, input.width-89, textarea.width-89, input.width-90, textarea.width-90, input.width-91, textarea.width-91, input.width-92, textarea.width-92, input.width-93, textarea.width-93, input.width-94, textarea.width-94, input.width-95, textarea.width-95, input.width-96, textarea.width-96, input.width-97, textarea.width-97, input.width-98, textarea.width-98  {
+  	padding-left:1%;
+  	padding-right:1%;
+}
+.width-1 { width:1%;}
+.width-2 { width:2%; }
+.width-3 { width:3%; }
+.width-4 { width:4%; }
+.width-5 { width:5%; }
+.width-6 { width:6%; }
+.width-7 { width:7%; }
+.width-8 { width:8%; }
+.width-9 { width:9%; }
+.width-10 { width:10%; }
+.width-11 { width:11%; }
+.width-12 { width:12%; }
+.width-13 { width:13%; }
+.width-14 { width:14%; }
+.width-15 { width:15%; }
+.width-16 { width:16%; }
+.width-17 { width:17%; }
+.width-18 { width:18%; }
+.width-19 { width:19%; }
+.width-20 { width:20%; }
+.width-21 { width:21%; }
+.width-22 { width:22%; }
+.width-23 { width:23%; }
+.width-24 { width:24%; }
+.width-25 { width:25%; }
+.width-26 { width:26%; }
+.width-27 { width:27%; }
+.width-28 { width:28%; }
+.width-29 { width:29%; }
+.width-30 { width:30%; }
+.width-31 { width:31%; }
+.width-32 { width:32%; }
+.width-33 { width:33%; }
+.width-34 { width:34%; }
+.width-35 { width:35%; }
+.width-36 { width:36%; }
+.width-37 { width:37%; }
+.width-38 { width:38%; }
+.width-39 { width:39%; }
+.width-40 { width:40%; }
+.width-41 { width:41%; }
+.width-42 { width:42%; }
+.width-43 { width:43%; }
+.width-44 { width:44%; }
+.width-45 { width:45%; }
+.width-46 { width:46%; }
+.width-47 { width:47%; }
+.width-48 { width:48%; }
+.width-49 { width:49%; }
+.width-50 { width:50%; }
+.width-51 { width:51%; }
+.width-52 { width:52%; }
+.width-53 { width:53%; }
+.width-54 { width:54%; }
+.width-55 { width:55%; }
+.width-56 { width:56%; }
+.width-57 { width:57%; }
+.width-58 { width:58%; }
+.width-59 { width:59%; }
+.width-60 { width:60%; }
+.width-61 { width:61%; }
+.width-62 { width:62%; }
+.width-63 { width:63%; }
+.width-64 { width:64%; }
+.width-65 { width:65%; }
+.width-66 { width:66%; }
+.width-67 { width:67%; }
+.width-68 { width:68%; }
+.width-69 { width:69%; }
+.width-70 { width:70%; }
+.width-71 { width:71%; }
+.width-72 { width:72%; }
+.width-73 { width:73%; }
+.width-74 { width:74%; }
+.width-75 { width:75%; }
+.width-76 { width:76%; }
+.width-77 { width:77%; }
+.width-78 { width:78%; }
+.width-79 { width:79%; }
+.width-80 { width:80%; }
+.width-81 { width:81%; }
+.width-82 { width:82%; }
+.width-83 { width:83%; }
+.width-84 { width:84%; }
+.width-85 { width:85%; }
+.width-86 { width:86%; }
+.width-87 { width:87%; }
+.width-88 { width:88%; }
+.width-89 { width:89%; }
+.width-90 { width:90%; }
+.width-91 { width:91%; }
+.width-92 { width:92%; }
+.width-93 { width:93%; }
+.width-94 { width:94%; }
+.width-95 { width:95%; }
+.width-96 { width:96%; }
+.width-97 { width:97%; }
+.width-98 { width:98%; margin-left:.9%; margin-right:.9%;}
+.width-99 { width:99%; margin-left:.4%; margin-right:.4%;}
+.width-100 { width:100%; margin-left:0; margin-right:0;}
+/************************************************************/
+/*
+	Place the .last-column to the class for your last column in a row. To keep it from droping below the row.
+	e.g: <div class="width-1 last-column"></div>
+*/
+/************************************************************/
+.last-column { margin-right:0; }
+/************************************************************/
+/* 
+	Add these to your column's classes. In rows with empty space to the right of the column.
+	e.g: <div class="width-1 space-right-95 last-column"></div>
+*/
+/************************************************************/
+.space-right-1 { margin-right:1%;}
+.space-right-2 { margin-right:2%; }
+.space-right-3 { margin-right:3%; }
+.space-right-4 { margin-right:4%; }
+.space-right-5 { margin-right:5%; }
+.space-right-6 { margin-right:6%; }
+.space-right-7 { margin-right:7%; }
+.space-right-8 { margin-right:8%; }
+.space-right-9 { margin-right:9%; }
+.space-right-10 { margin-right:10%; }
+.space-right-11 { margin-right:11%; }
+.space-right-12 { margin-right:12%; }
+.space-right-13 { margin-right:13%; }
+.space-right-14 { margin-right:14%; }
+.space-right-15 { margin-right:15%; }
+.space-right-16 { margin-right:16%; }
+.space-right-17 { margin-right:17%; }
+.space-right-18 { margin-right:18%; }
+.space-right-19 { margin-right:19%; }
+.space-right-20 { margin-right:20%; }
+.space-right-21 { margin-right:21%; }
+.space-right-22 { margin-right:22%; }
+.space-right-23 { margin-right:23%; }
+.space-right-24 { margin-right:24%; }
+.space-right-25 { margin-right:25%; }
+.space-right-26 { margin-right:26%; }
+.space-right-27 { margin-right:27%; }
+.space-right-28 { margin-right:28%; }
+.space-right-29 { margin-right:29%; }
+.space-right-30 { margin-right:30%; }
+.space-right-31 { margin-right:31%; }
+.space-right-32 { margin-right:32%; }
+.space-right-33 { margin-right:33%; }
+.space-right-34 { margin-right:34%; }
+.space-right-35 { margin-right:35%; }
+.space-right-36 { margin-right:36%; }
+.space-right-37 { margin-right:37%; }
+.space-right-38 { margin-right:38%; }
+.space-right-39 { margin-right:39%; }
+.space-right-40 { margin-right:40%; }
+.space-right-41 { margin-right:41%; }
+.space-right-42 { margin-right:42%; }
+.space-right-43 { margin-right:43%; }
+.space-right-44 { margin-right:44%; }
+.space-right-45 { margin-right:45%; }
+.space-right-46 { margin-right:46%; }
+.space-right-47 { margin-right:47%; }
+.space-right-48 { margin-right:48%; }
+.space-right-49 { margin-right:49%; }
+.space-right-50 { margin-right:50%; }
+.space-right-51 { margin-right:51%; }
+.space-right-52 { margin-right:52%; }
+.space-right-53 { margin-right:53%; }
+.space-right-54 { margin-right:54%; }
+.space-right-55 { margin-right:55%; }
+.space-right-56 { margin-right:56%; }
+.space-right-57 { margin-right:57%; }
+.space-right-58 { margin-right:58%; }
+.space-right-59 { margin-right:59%; }
+.space-right-60 { margin-right:60%; }
+.space-right-61 { margin-right:61%; }
+.space-right-62 { margin-right:62%; }
+.space-right-63 { margin-right:63%; }
+.space-right-64 { margin-right:64%; }
+.space-right-65 { margin-right:65%; }
+.space-right-66 { margin-right:66%; }
+.space-right-67 { margin-right:67%; }
+.space-right-68 { margin-right:68%; }
+.space-right-69 { margin-right:69%; }
+.space-right-70 { margin-right:70%; }
+.space-right-71 { margin-right:71%; }
+.space-right-72 { margin-right:72%; }
+.space-right-73 { margin-right:73%; }
+.space-right-74 { margin-right:74%; }
+.space-right-75 { margin-right:75%; }
+.space-right-76 { margin-right:76%; }
+.space-right-77 { margin-right:77%; }
+.space-right-78 { margin-right:78%; }
+.space-right-79 { margin-right:79%; }
+.space-right-80 { margin-right:80%; }
+.space-right-81 { margin-right:81%; }
+.space-right-82 { margin-right:82%; }
+.space-right-83 { margin-right:83%; }
+.space-right-84 { margin-right:84%; }
+.space-right-85 { margin-right:85%; }
+.space-right-86 { margin-right:86%; }
+.space-right-87 { margin-right:87%; }
+.space-right-88 { margin-right:88%; }
+.space-right-89 { margin-right:89%; }
+.space-right-90 { margin-right:90%; }
+.space-right-91 { margin-right:91%; }
+.space-right-92 { margin-right:92%; }
+.space-right-93 { margin-right:93%; }
+.space-right-94 { margin-right:94%; }
+.space-right-95 { margin-right:95%; }
+.space-right-96 { margin-right:96%; }
+.space-right-97 { margin-right:97%; }
+.space-right-98 { margin-right:98%; }
+/************************************************************/
+/* 
+	Add these to your column's classes. In rows with empty space to the left of the column.
+	e.g: <div class="width-1 space-left-95 last-column"></div>
+*/
+/************************************************************/
+.space-left-1 { margin-left:1%;}
+.space-left-2 { margin-left:2%; }
+.space-left-3 { margin-left:3%; }
+.space-left-4 { margin-left:4%; }
+.space-left-5 { margin-left:5%; }
+.space-left-6 { margin-left:6%; }
+.space-left-7 { margin-left:7%; }
+.space-left-8 { margin-left:8%; }
+.space-left-9 { margin-left:9%; }
+.space-left-10 { margin-left:10%; }
+.space-left-11 { margin-left:11%; }
+.space-left-12 { margin-left:12%; }
+.space-left-13 { margin-left:13%; }
+.space-left-14 { margin-left:14%; }
+.space-left-15 { margin-left:15%; }
+.space-left-16 { margin-left:16%; }
+.space-left-17 { margin-left:17%; }
+.space-left-18 { margin-left:18%; }
+.space-left-19 { margin-left:19%; }
+.space-left-20 { margin-left:20%; }
+.space-left-21 { margin-left:21%; }
+.space-left-22 { margin-left:22%; }
+.space-left-23 { margin-left:23%; }
+.space-left-24 { margin-left:24%; }
+.space-left-25 { margin-left:25%; }
+.space-left-26 { margin-left:26%; }
+.space-left-27 { margin-left:27%; }
+.space-left-28 { margin-left:28%; }
+.space-left-29 { margin-left:29%; }
+.space-left-30 { margin-left:30%; }
+.space-left-31 { margin-left:31%; }
+.space-left-32 { margin-left:32%; }
+.space-left-33 { margin-left:33%; }
+.space-left-34 { margin-left:34%; }
+.space-left-35 { margin-left:35%; }
+.space-left-36 { margin-left:36%; }
+.space-left-37 { margin-left:37%; }
+.space-left-38 { margin-left:38%; }
+.space-left-39 { margin-left:39%; }
+.space-left-40 { margin-left:40%; }
+.space-left-41 { margin-left:41%; }
+.space-left-42 { margin-left:42%; }
+.space-left-43 { margin-left:43%; }
+.space-left-44 { margin-left:44%; }
+.space-left-45 { margin-left:45%; }
+.space-left-46 { margin-left:46%; }
+.space-left-47 { margin-left:47%; }
+.space-left-48 { margin-left:48%; }
+.space-left-49 { margin-left:49%; }
+.space-left-50 { margin-left:50%; }
+.space-left-51 { margin-left:51%; }
+.space-left-52 { margin-left:52%; }
+.space-left-53 { margin-left:53%; }
+.space-left-54 { margin-left:54%; }
+.space-left-55 { margin-left:55%; }
+.space-left-56 { margin-left:56%; }
+.space-left-57 { margin-left:57%; }
+.space-left-58 { margin-left:58%; }
+.space-left-59 { margin-left:59%; }
+.space-left-60 { margin-left:60%; }
+.space-left-61 { margin-left:61%; }
+.space-left-62 { margin-left:62%; }
+.space-left-63 { margin-left:63%; }
+.space-left-64 { margin-left:64%; }
+.space-left-65 { margin-left:65%; }
+.space-left-66 { margin-left:66%; }
+.space-left-67 { margin-left:67%; }
+.space-left-68 { margin-left:68%; }
+.space-left-69 { margin-left:69%; }
+.space-left-70 { margin-left:70%; }
+.space-left-71 { margin-left:71%; }
+.space-left-72 { margin-left:72%; }
+.space-left-73 { margin-left:73%; }
+.space-left-74 { margin-left:74%; }
+.space-left-75 { margin-left:75%; }
+.space-left-76 { margin-left:76%; }
+.space-left-77 { margin-left:77%; }
+.space-left-78 { margin-left:78%; }
+.space-left-79 { margin-left:79%; }
+.space-left-80 { margin-left:80%; }
+.space-left-81 { margin-left:81%; }
+.space-left-82 { margin-left:82%; }
+.space-left-83 { margin-left:83%; }
+.space-left-84 { margin-left:84%; }
+.space-left-85 { margin-left:85%; }
+.space-left-86 { margin-left:86%; }
+.space-left-87 { margin-left:87%; }
+.space-left-88 { margin-left:88%; }
+.space-left-89 { margin-left:89%; }
+.space-left-90 { margin-left:90%; }
+.space-left-91 { margin-left:91%; }
+.space-left-92 { margin-left:92%; }
+.space-left-93 { margin-left:93%; }
+.space-left-94 { margin-left:94%; }
+.space-left-95 { margin-left:95%; }
+.space-left-96 { margin-left:96%; }
+.space-left-97 { margin-left:97%; }
+.space-left-98 { margin-left:98%; }
+/************************************************************/
+/* 
+	IE Hacks.
+	
+	These are to be used in conjunction with the following conditional statements
+	
+	<!--[if lt IE 7 ]>
+	<html lang="en" class="no-js ie6">
+	</script>
+	<![endif]-->
+	<!--[if IE 7 ]>    
+	<html lang="en" class="no-js ie7">
+	<![endif]-->
+	<!--[if IE 8 ]>    
+	<html lang="en" class="no-js ie8">
+	<![endif]-->
+	<!--[if IE 9 ]>    
+	<html lang="en" class="no-js ie9">
+	<![endif]-->
+	<!--[if (gt IE 9)|!(IE)]>
+	<!--> 
+	<html lang="en" class="no-js"> 
+	<!--<![endif]-->
+	
+	These are the issues I found with Internet Explorer. If needed you can add the .ie6, .ie7, .ie8, or .ie9 class to any other class 	you are having any issues with. By adding these additional IE conditional class you can target that specific version of Internet
+	Explorer.
+*/
+/************************************************************/
+
+.ie6 .main-container ,.ie6 .width-1, .ie6 .width-2, .ie6 .width-3, .ie6 .width-4, .ie6 .width-5, .ie6 .width-6, .ie6 .width-7, .ie6 .width-8, .ie6 .width-9, .ie6 .width-10, .ie6 .width-11, .ie6 .width-12, .ie6 .width-13, .ie6 .width-14, .ie6 .width-15, .ie6 .width-16, .ie6 .width-17, .ie6 .width-18, .ie6 .width-19 , .ie6 .width-20, .ie6 .width-21, .ie6 .width-22, .ie6 .width-21, .ie6 .width-22, .ie6 .width-23, .ie6 .width-24, .ie6 .width-25, .ie6 .width-26, .ie6 .width-27, .ie6 .width-28, .ie6 .width-29, .ie6 .width-30, .ie6 .width-31, .ie6 .width-32, .ie6 .width-33, .ie6 .width-34, .ie6 .width-35, .ie6 .width-36, .ie6 .width-37, .ie6 .width-38, .ie6 .width-39 , .ie6 .width-40, .ie6 .width-41, .ie6 .width-42, .ie6 .width-43, .ie6 .width-44 , .ie6 .width-45, .ie6 .width-46, .ie6 .width-47, .ie6 .width-48, .ie6 .width-49, .ie6 .width-50, .ie6 .width-50, .ie6 .width-51, .ie6 .width-52, .ie6 .width-53, .ie6 .width-54, .ie6 .width-55, .ie6 .width-56, .ie6 .width-57, .ie6 .width-58, .ie6 .width-59, .ie6 .width-60, .ie6 .width-61, .ie6 .width-62, .ie6 .width-63, .ie6 .width-64, .ie6 .width-65, .ie6 .width-66, .ie6 .width-67, .ie6 .width-68, .ie6 .width-69, .ie6 .width-70, .ie6 .width-71, .ie6 .width-72, .ie6 .width-73, .ie6 .width-74, .ie6 .width-75, .ie6 .width-76, .ie6 .width-77, .ie6 .width-78, .ie6 .width-79, .ie6 .width-80, .ie6 .width-81, .ie6 .width-82, .ie6 .width-83, .ie6 .width-84, .ie6 .width-85, .ie6 .width-86, .ie6 .width-87, .ie6 .width-88, .ie6 .width-89, .ie6 .width-90, .ie6 .width-91, .ie6 .width-92, .ie6 .width-93, .ie6 .width-94, .ie6 .width-95, .ie6 .width-96, .ie6 .width-97, .ie6 .width-98, .ie6 .width-99, .ie6 .width-100 {
+	overflow-x:hidden;
+	
+}
