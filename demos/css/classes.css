@@ -1,5 +1,4 @@
-/************************************************************/
-/* 
+/************************************************************
 	FLAMEkwirk v1.0 - CSS Grid Framework
 	Copyright (c) 2010 Jason Witt
 	Duel licensed under the GPL license and Creative Commons Attribution-ShareAlike 3.0 Unported License:
@@ -29,13 +28,10 @@
 	This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, 
 	visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, S
 	an Francisco, California, 94105, USA. 
-*/
-/************************************************************/
-/************************************************************/
-/* 
+************************************************************/
+/************************************************************
 	Colors and Shadows
-*/
-/************************************************************/
+************************************************************/
 .bg-color-1 { background-color:#FFF; }
 .bg-color-2 { background-color:#CCC; }
 .bg-color-3 { background-color:#999; }
@@ -57,22 +53,18 @@
 .text-shadow-4 { text-shadow: 2px 2px 2px #666; }
 .text-shadow-5 { text-shadow: 2px 2px 2px #333; }
 .text-shadow-6 { text-shadow: 2px 2px 2px #000; }
-/************************************************************/
-/* 
+/************************************************************
 	Alignment 
-*/
-/************************************************************/
+************************************************************/
 .align-right { text-align:right; }
 .align-left { text-align:left; }
 .align-center { text-align:center; }
 .float-left { float:left }
 .float-right { float:right; }
 .no-float { float:none; }
-/************************************************************/
-/* 
+/************************************************************
 	Padding
-*/
-/************************************************************/
+************************************************************/
 .padding { padding:5px; }
 .no-padding { padding:0; }
 .top-padding { padding-top:5px; }
@@ -89,11 +81,9 @@
 .bottom-left-padding { padding:5px 0 0 5px; }
 .top-bottom-right-padding { padding:5px 5px 5px 0; }
 .top-bottom-left-padding { padding:5px 0 5px 5px; }
-/************************************************************/
-/* 
+/************************************************************
 	Margins
-*/
-/************************************************************/
+************************************************************/
 .no-margin { margin:0; }
 .margin { margin:5px; }
 .top-margin { margin-top:5px; }
@@ -110,11 +100,9 @@
 .bottom-left-margin { margin:5px 0 0 5px; }
 .top-bottom-right-margin { margin:5px 5px 5px 0; }
 .top-bottom-left-margin { margin:5px 0 5px 5px; }
-/************************************************************/
-/* 
+/************************************************************
 	Borders
-*/
-/************************************************************/
+************************************************************/
 .no-border { 
 	border:none;
 	}
@@ -178,11 +166,9 @@
 	border-bottom:1px solid #000;
 	border-left:1px solid #000;
 }
-/************************************************************/
-/* 
+/************************************************************ 
 	Z Index
-*/
-/************************************************************/
+************************************************************/
 .z-index-1{ z-index:1; }
 .z-index-10{ z-index:10; }
 .z-index-20{ z-index:20; }
@@ -194,11 +180,9 @@
 .z-index-80{ z-index:80; }
 .z-index-90{ z-index:90; }
 .z-index-100{ z-index:100; }
-/************************************************************/
-/* 
+/************************************************************ 
 	Clear Floats and Clearfix 
-*/
-/************************************************************/
+************************************************************/
 .clearfix:before, .clearfix:after {
 	content: "\0020"; 
 	display: block; 
@@ -207,13 +191,12 @@
 }
 .clearfix:after { clear: both; }
 .clearfix {zoom: 1;}
-/************************************************************/
-/* 
+/************************************************************ 
 	Miscellaneous
-*/
-/************************************************************/
+************************************************************/
 .show { display:block; }
 .hide {display:none; }
+/* .ir Thanks to http://html5boilerplate.com/ */
 .ir { 
 	display: block; 
 	text-indent: -999em; 
@@ -221,10 +204,4 @@
 	background-repeat: no-repeat; 
 	text-align: left; 
 	direction: ltr; 
-}
-.demo-style{
-	height:20px;
-	margin-bottom:10px;
-	background-color:#999;
-	text-align:center;
 }

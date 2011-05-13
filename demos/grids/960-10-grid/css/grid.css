@@ -1,5 +1,4 @@
-/************************************************************/
-/* 
+/************************************************************
 	FLAMEkwirk v1.0 - CSS Grid Framework
 	Copyright (c) 2010 Jason Witt
 	Duel licensed under the GPL license and Creative Commons Attribution-ShareAlike 3.0 Unported License:
@@ -29,160 +28,147 @@
 	This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, 
 	visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, S
 	an Francisco, California, 94105, USA. 
-*/
-/************************************************************/
-/************************************************************/
-/* 
+************************************************************/
+/************************************************************
 	Add .view-grid class to your <div> to see the grid
 	e.g: <div class="view-grid-1"></div>
-*/
-/************************************************************/
+************************************************************/
 .view-grid {
 	background:url(images/grid.png);
 }
-/************************************************************/
-/* 
+/************************************************************
 	Add .main-container class to the main wrapper.
 	e.g: <div class="main-container"></div>
-*/
-/************************************************************/
+************************************************************/
 .main-container {
 	width:960px;
 	margin:0 auto;
 }
-/************************************************************/
-/* 
+/************************************************************
 	Use these classes to set the width of an your columns, input, and textarea elements.
 	e.g: <div class="width-1"></div>
 	e.g: <input type="text" class="width-1">
 	e.g: <textarea type="text" class="width-1">
-*/
-/************************************************************/
+************************************************************/
 .width-1, .width-2, .width-3, .width-4, .width-5, .width-6, .width-7, .width-8, .width-9, .width-10, .width-11, .width-12, .width-13, .width-14, .width-15, .width-16, .width-17, .width-18, .width-19 , .width-20, .width-21, .width-22, .width-21, .width-22, .width-23, .width-24, .width-25, .width-26, .width-27, .width-28, .width-29, .width-30, .width-31, .width-32, .width-33, .width-34, .width-35, .width-36, .width-37, .width-38, .width-39 , .width-40, .width-41, .width-42, .width-43, .width-44 , .width-45, .width-46, .width-47, .width-48, .width-49, .width-50, .width-51, .width-52, .width-53, .width-54, .width-55, .width-56, .width-57, .width-58, .width-59, .width-60, .width-61, .width-62, .width-63, .width-64, .width-65, .width-66 , .width-67, .width-68, .width-69, .width-70, .width-71, .width-72, .width-73, .width-74, .width-75, .width-76, .width-77, .width-78, .width-79, .width-80, .width-81, .width-82, .width-83, .width-84, .width-85, .width-86, .width-87, .width-88 , .width-89, .width-90, .width-91, .width-92, .width-93 , .width-94, .width-95, .width-96 {
 	display: inline;
 	float: left;
 	margin-right:10px;
 }
-input.width-1, textarea.width-1, input.width-2, textarea.width-2, input.width-3, textarea.width-3, input.width-4, textarea.width-4, input.width-5, textarea.width-5, input.width-6, textarea.width-6, input.width-7, textarea.width-7, input.width-8, textarea.width-8, input.width-9, textarea.width-9, input.width-10, textarea.width-10, input.width-11, textarea.width-11, input.width-12, textarea.width-12, input.width-13, textarea.width-13, input.width-14, textarea.width-14, input.width-15, textarea.width-15, input.width-16, textarea.width-16, input.width-17, textarea.width-17, input.width-18, textarea.width-18, input.width-19, textarea.width-19, input.width-20, textarea.width-20, input.width-21, textarea.width-21, input.width-22, textarea.width-22, input.width-23, textarea.width-23, input.width-24, textarea.width-24, input.width-25, textarea.width-25, input.width-26, textarea.width-26, input.width-27, textarea.width-27, input.width-28, textarea.width-28, input.width-29, textarea.width-29, input.width-30, textarea.width-30, input.width-31, textarea.width-31, input.width-32, textarea.width-32, input.width-33, textarea.width-33, input.width-34, textarea.width-34, input.width-35, textarea.width-35, input.width-36, textarea.width-36, input.width-37, textarea.width-37, input.width-38, textarea.width-38, input.width-39, textarea.width-39, input.width-40, textarea.width-40, input.width-41, textarea.width-41, input.width-42, textarea.width-42, input.width-43, textarea.width-43, input.width-44, textarea.width-44, input.width-45, textarea.width-45, input.width-46, textarea.width-46,input.width-47, textarea.width-47, input.width-48, textarea.width-48, input.width-49, textarea.width-49, input.width-50, textarea.width-50, input.width-51, textarea.width-51, input.width-52, textarea.width-52, input.width-53, textarea.width-53, input.width-54, textarea.width-54, input.width-55, textarea.width-55, input.width-56, textarea.width-56, input.width-57, textarea.width-57, input.width-58, textarea.width-58, input.width-59, textarea.width-59, input.width-60, textarea.width-60, input.width-61, textarea.width-61, input.width-62, textarea.width-62, input.width-63, textarea.width-63, input.width-64, textarea.width-64, input.width-23, textarea.width-23, input.width-24, textarea.width-24, input.width-25, textarea.width-25, input.width-26, textarea.width-26, input.width-65, textarea.width-65, input.width-66, textarea.width-66, input.width-67, textarea.width-67, input.width-68, textarea.width-68, input.width-69, textarea.width-69, input.width-70, textarea.width-70, input.width-71, textarea.width-71, input.width-72, textarea.width-72, input.width-73, textarea.width-73, input.width-74, textarea.width-74, input.width-75, textarea.width-75, input.width-76, textarea.width-76, input.width-77, textarea.width-77, input.width-78, textarea.width-78, input.width-79, textarea.width-79, input.width-80, textarea.width-80, input.width-81, textarea.width-81, input.width-82, textarea.width-82, input.width-83, textarea.width-83, input.width-84, textarea.width-84, input.width-85, textarea.width-85, input.width-86, textarea.width-86, input.width-87, textarea.width-87, input.width-88, textarea.width-88, input.width-89, textarea.width-89, input.width-90, textarea.width-90, input.width-91, textarea.width-91, input.width-92, textarea.width-92, input.width-93, textarea.width-93, input.width-94, textarea.width-94 {
+input.width-1, textarea.width-1, input.width-2, textarea.width-2, input.width-3, textarea.width-3, input.width-4, textarea.width-4, input.width-5, textarea.width-5, input.width-6, textarea.width-6, input.width-7, textarea.width-7, input.width-8, textarea.width-8, input.width-9, textarea.width-9, input.width-10, textarea.width-10, input.width-11, textarea.width-11, input.width-12, textarea.width-12, input.width-13, textarea.width-13, input.width-14, textarea.width-14, input.width-15, textarea.width-15, input.width-16, textarea.width-16, input.width-17, textarea.width-17, input.width-18, textarea.width-18, input.width-19, textarea.width-19, input.width-20, textarea.width-20, input.width-21, textarea.width-21, input.width-22, textarea.width-22, input.width-23, textarea.width-23, input.width-24, textarea.width-24, input.width-25, textarea.width-25, input.width-26, textarea.width-26, input.width-27, textarea.width-27, input.width-28, textarea.width-28, input.width-29, textarea.width-29, input.width-30, textarea.width-30, input.width-31, textarea.width-31, input.width-32, textarea.width-32, input.width-33, textarea.width-33, input.width-34, textarea.width-34, input.width-35, textarea.width-35, input.width-36, textarea.width-36, input.width-37, textarea.width-37, input.width-38, textarea.width-38, input.width-39, textarea.width-39, input.width-40, textarea.width-40, input.width-41, textarea.width-41, input.width-42, textarea.width-42, input.width-43, textarea.width-43, input.width-44, textarea.width-44, input.width-45, textarea.width-45, input.width-46, textarea.width-46,input.width-47, textarea.width-47, input.width-48, textarea.width-48, input.width-49, textarea.width-49, input.width-50, textarea.width-50, input.width-51, textarea.width-51, input.width-52, textarea.width-52, input.width-53, textarea.width-53, input.width-54, textarea.width-54, input.width-55, textarea.width-55, input.width-56, textarea.width-56, input.width-57, textarea.width-57, input.width-58, textarea.width-58, input.width-59, textarea.width-59, input.width-60, textarea.width-60, input.width-61, textarea.width-61, input.width-62, textarea.width-62, input.width-63, textarea.width-63, input.width-64, textarea.width-64, , input.width-65, textarea.width-65, input.width-66, textarea.width-66, input.width-67, textarea.width-67, input.width-68, textarea.width-68, input.width-69, textarea.width-69, input.width-70, textarea.width-70, input.width-71, textarea.width-71, input.width-72, textarea.width-72, input.width-73, textarea.width-73, input.width-74, textarea.width-74, input.width-75, textarea.width-75, input.width-76, textarea.width-76, input.width-77, textarea.width-77, input.width-78, textarea.width-78, input.width-79, textarea.width-79, input.width-80, textarea.width-80, input.width-81, textarea.width-81, input.width-82, textarea.width-82, input.width-83, textarea.width-83, input.width-84, textarea.width-84, input.width-85, textarea.width-85, input.width-86, textarea.width-86, input.width-87, textarea.width-87, input.width-88, textarea.width-88, input.width-89, textarea.width-89, input.width-90, textarea.width-90, input.width-91, textarea.width-91, input.width-92, textarea.width-92, input.width-93, textarea.width-93, input.width-94, textarea.width-94 {
   	margin-left: 5px;
   	margin-right: 5px;
 }
 .width-1 { width:10px; }
 .width-2 { width:20px; }
 .width-3 { width:30px; }
-.width-4 { width:40px; } /* 24 Column Layout - Column 1 */
+.width-4 { width:40px; }
 .width-5 { width:50px; }
 .width-6 { width:60px; }
 .width-7 { width:70px; }
-.width-8 { width:80px; } /* 24 Column Layout - Column 2 */ /* 12 Column Layout - Column 1 */
+.width-8 { width:80px; }
 .width-9 { width:90px; }
 .width-10 { width:100px; }
 .width-11 { width:110px; }
-.width-12 { width:120px; } /* 24 Column Layout - Column 3 */
+.width-12 { width:120px; }
 .width-13 { width:130px; }
 .width-14 { width:140px; }
 .width-15 { width:150px; }
-.width-16 { width:160px; } /* 24 Column Layout - Column 4 */ /* 12 Column Layout - Column 2 */
+.width-16 { width:160px; }
 .width-17 { width:170px; }
 .width-18 { width:180px; }
 .width-19 { width:190px; }
-.width-20 { width:200px; } /* 24 Column Layout - Column 5 */
+.width-20 { width:200px; }
 .width-21 { width:210px; }
 .width-22 { width:220px; }
 .width-23 { width:230px; }
-.width-24 { width:240px; } /* 24 Column Layout - Column 6 */ /* 12 Column Layout - Column 3 */
+.width-24 { width:240px; }
 .width-25 { width:250px; }
 .width-26 { width:260px; }
 .width-27 { width:270px; }
-.width-28 { width:280px; } /* 24 Column Layout - Column 7 */
+.width-28 { width:280px; }
 .width-29 { width:290px; }
 .width-30 { width:300px; }
 .width-31 { width:310px; }
-.width-32 { width:320px; } /* 24 Column Layout - Column 8 */ /* 12 Column Layout - Column 4 */
+.width-32 { width:320px; }
 .width-33 { width:330px; }
 .width-34 { width:340px; }
 .width-35 { width:350px; }
-.width-36 { width:360px; } /* 24 Column Layout - Column 9*/
+.width-36 { width:360px; }
 .width-37 { width:370px; }
 .width-38 { width:380px; }
 .width-39 { width:390px; }
-.width-40 { width:400px; } /* 24 Column Layout - Column 10 */ /* 12 Column Layout - Column 5  */
+.width-40 { width:400px; }
 .width-41 { width:410px; }
 .width-42 { width:420px; }
 .width-43 { width:430px; }
-.width-44 { width:440px; } /* 24 Column Layout - Column 11 */
+.width-44 { width:440px; }
 .width-45 { width:450px; }
 .width-46 { width:460px; }
 .width-47 { width:470px; }
-.width-48 { width:480px; } /* 24 Column Layout - Column 12 */ /* 12 Column Layout - Column 6 */
+.width-48 { width:480px; }
 .width-49 { width:490px; }
 .width-50 { width:500px; }
 .width-51 { width:510px; }
-.width-52 { width:520px; } /* 24 Column Layout - Column 13,  */
+.width-52 { width:520px; }
 .width-53 { width:530px; }
 .width-54 { width:540px; }
 .width-55 { width:550px; }
-.width-56 { width:560px; } /* 24 Column Layout - Column 14 */ /* 12 Column Layout - Column 7 */
+.width-56 { width:560px; }
 .width-57 { width:570px; }
 .width-58 { width:580px; }
 .width-59 { width:590px; }
-.width-60 { width:600px; } /* 24 Column Layout - Column 15 */
+.width-60 { width:600px; }
 .width-61 { width:610px; }
 .width-62 { width:620px; }
 .width-63 { width:630px; }
-.width-64 { width:640px; } /* 24 Column Layout - Column 16 */ /* 12 Column Layout - Column 8 */
+.width-64 { width:640px; }
 .width-65 { width:650px; }
 .width-66 { width:660px; }
 .width-67 { width:670px; }
-.width-68 { width:680px; } /* 24 Column Layout - Column 17 */
+.width-68 { width:680px; }
 .width-69 { width:690px; }
 .width-70 { width:700px; }
 .width-71 { width:710px; }
-.width-72 { width:720px; } /* 24 Column Layout - Column 18 */ /* 12 Column Layout - Column 9 */
+.width-72 { width:720px; }
 .width-73 { width:730px; }
 .width-74 { width:740px; }
 .width-75 { width:750px; }
-.width-76 { width:760px; } /* 24 Column Layout - Column 19 */
+.width-76 { width:760px; }
 .width-77 { width:770px; }
 .width-78 { width:780px; }
 .width-79 { width:790px; }
-.width-80 { width:800px; } /* 24 Column Layout - Column 20 */ /* 12 Column Layout - Column 10 */
+.width-80 { width:800px; }
 .width-81 { width:810px; }
 .width-82 { width:820px; }
 .width-83 { width:830px; }
-.width-84 { width:840px; } /* 24 Column Layout - Column 21 */
+.width-84 { width:840px; }
 .width-85 { width:850px; }
 .width-86 { width:860px; }
 .width-87 { width:870px; }
-.width-88 { width:880px; } /* 24 Column Layout - Column 22 */ /* 12 Column Layout - Column 11 */
+.width-88 { width:880px; }
 .width-89 { width:890px; }
 .width-90 { width:900px; }
 .width-91 { width:910px; }
-.width-92 { width:920px; } /* 24 Column Layout - Column 23 */
+.width-92 { width:920px; }
 .width-93 { width:930px; }
 .width-94 { width:940px; }
 .width-95 { width:950px; margin-right:5px; margin-left:5px;}
-.width-96 { width:960px; margin-right:0;} /* 24 Column Layout - Column 24 */ /* 12 Column Layout - Column 12 */
-/************************************************************/
-/*
+.width-96 { width:960px; margin-right:0;}
+/************************************************************
 	Place the .last-column to the class for your last column in a row. To keep it from droping below the row.
 	e.g: <div class="width-1 last-column"></div>
-*/
-/************************************************************/
+************************************************************/
 .last-column { margin-right:0;}
-/************************************************************/
-/*
+/************************************************************
 	Place the .first-column to the class for your first column in a row. If your columns don't fit evenly in the rows. This adds a 5px margin infront of the first column.
 	e.g: <div class="width-1 first-column"></div>
-*/
-/************************************************************/
+************************************************************/
 .first-column { margin-left:5px;}
-/************************************************************/
-/* 
+/************************************************************
 	Add these to your column's classes. In rows with empty space to the right of the column.
 	e.g: <div class="width-1 space-right-45 last-column"></div>
-*/
-/************************************************************/
+************************************************************/
 .space-right-1 { margin-right: 10px;}
 .space-right-2 { margin-right: 20px;}
 .space-right-3 { margin-right: 30px;}
@@ -277,12 +263,10 @@ input.width-1, textarea.width-1, input.width-2, textarea.width-2, input.width-3,
 .space-right-92 { margin-right: 920px;}
 .space-right-93 { margin-right: 930px;}
 .space-right-94 { margin-right: 940px;}
-/************************************************************/
-/* 
+/************************************************************
 	Add these to your column's classes. In rows with empty space to the left of the column.
 	e.g: <div class="width-1 space-left-45 last-column"></div>
-*/
-/************************************************************/
+************************************************************/
 .space-left-1 { margin-left: 10px;}
 .space-left-2 { margin-left: 20px;}
 .space-left-3 { margin-left: 30px;}
@@ -377,8 +361,7 @@ input.width-1, textarea.width-1, input.width-2, textarea.width-2, input.width-3,
 .space-left-92 { margin-left: 920px;}
 .space-left-93 { margin-left: 930px;}
 .space-left-94 { margin-left: 940px;}
-/************************************************************/
-/* 
+/************************************************************
 	IE Hacks.
 	
 	These are to be used in conjunction with the following conditional statements
@@ -403,8 +386,7 @@ input.width-1, textarea.width-1, input.width-2, textarea.width-2, input.width-3,
 	
 	These are the issues I found with Internet Explorer. If needed you can add the .ie6, .ie7, .ie8, or .ie9 class to any other class 	you are having any issues with. By adding these additional IE conditional class you can target that specific version of Internet
 	Explorer.
-*/
-/************************************************************/
+************************************************************/
 .ie6 .width-1, .ie6 .width-2, .ie6 .width-3, .ie6 .width-4, .ie6 .width-5, .ie6 .width-6, .ie6 .width-7, .ie6 .width-8, .ie6 .width-9, .ie6 .width-10, .ie6 .width-11, .ie6 .width-12, .ie6 .width-13, .ie6 .width-14, .ie6 .width-15, .ie6 .width-16, .ie6 .width-17, .ie6 .width-18, .ie6 .width-19 , .ie6 .width-20, .ie6 .width-21, .ie6 .width-22, .ie6 .width-21, .ie6 .width-22, .ie6 .width-23, .ie6 .width-24, .ie6 .width-25, .ie6 .width-26, .ie6 .width-27, .ie6 .width-28, .ie6 .width-29, .ie6 .width-30, .ie6 .width-31, .ie6 .width-32, .ie6 .width-33, .ie6 .width-34, .ie6 .width-35, .ie6 .width-36, .ie6 .width-37, .ie6 .width-38, .ie6 .width-39 , .ie6 .width-40, .ie6 .width-41, .ie6 .width-42, .ie6 .width-43, .ie6 .width-44 , .ie6 .width-45, .ie6 .width-46, .ie6 .width-47, .ie6 .width-48, .ie6 .width-49, .ie6 .width-50, .ie6 .width-51, .ie6 .width-52, .ie6 .width-53, .ie6 .width-54, .ie6 .width-55, .ie6 .width-56, .ie6 .width-57, .ie6 .width-58, .ie6 .width-59, .ie6 .width-60, .ie6 .width-61, .ie6 .width-62, .ie6 .width-63, .ie6 .width-64, .ie6 .width-65, .ie6 .width-66 , .ie6 .width-67, .ie6 .width-68, .ie6 .width-69, .ie6 .width-70, .ie6 .width-71, .ie6 .width-72, .ie6 .width-73, .ie6 .width-74, .ie6 .width-75, .ie6 .width-76, .ie6 .width-77, .ie6 .width-78, .ie6 .width-79, .ie6 .width-80, .ie6 .width-81, .ie6 .width-82, .ie6 .width-83, .ie6 .width-84, .ie6 .width-85, .ie6 .width-86, .ie6 .width-87, .ie6 .width-88 , .ie6 .width-89, .ie6 .width-90, .ie6 .width-91, .ie6 .width-92, .ie6 .width-93 , .ie6 .width-94, .ie6 .width-95, .ie6 .width-96 {
 	display:inline; 
 	overflow-x:hidden;
